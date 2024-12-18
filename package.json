@@ -1,0 +1,27 @@
+{
+  "name": "grafana-auth-proxy",
+  "version": "1.0.0",
+  "description": "Auth proxy middleware for grafana with express",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aud0325/grafana-auth-proxy.git"
+  },
+  "keywords": [
+    "grafana",
+    "node"
+  ],
+  "author": "mark.song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aud0325/grafana-auth-proxy/issues"
+  },
+  "homepage": "https://github.com/aud0325/grafana-auth-proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  },
+  "devDependencies": {
+    "express": "^4.21.2"
+  }
+}
